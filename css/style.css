@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://s2.glbimg.com/7Ie29tRKiaSGesFtfs34KGsqlcY=/290x193/s2.glbimg.com/2M-ina-pfcV6QPyhKYT30eRhy0Y=/s.glbimg.com/jo/g1/f/original/2014/08/20/bcm0m.gif);
+    color: white;
+    
+}
+
+h2 {
+    font-family: 'Grey Qo', cursive;
+    font-size: 100px;
+}
+
+main {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-area{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+fieldset {
+    opacity: 0.9;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    background: rgba(0, 0, 255, 0.5);
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.dados {
+    margin-bottom: 20px;
+}
+
+.dados:hover {
+    transform: scale(1.1);
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+}
+
+input {
+    transition: all 0.5s ease-in-out;
+}
+
+filedset:hover {
+    transform: scale(1.2);
+}
+
+select {
+    margin: 0px auto 15px;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 5px;
+    width: 200px;
+    transition: all 0.5s ease-in-out;
+}
+
+.enviar:hover {
+    background-color: green;
+    color: white;
+}
+
+.resetar:hover {
+    background-color: red;
+    color: white;
+}
+
+.txt {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.container-header a {
+    color: white;
+    font-size: 30px;
+}
+
+.inicio{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.cadastro{
+    color:rgb(255, 255, 255);
+    margin-right: 3px;
+    font-size: 25px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
